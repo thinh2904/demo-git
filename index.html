@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của [Tên của bạn]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Nguyễn Tiến Thịnh</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Trang chủ</a></li>
+                <li><a href="#about">Về tôi</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <img src="https://m.yodycdn.com/blog/anh-dai-dien-hai-yodyvn3-b3a8cf32-e08a-47fc-a741-71626aadc4de.jpg" alt="Ảnh đại diện của bạn" class="hero-avatar">
+                <h1>Xin chào, tôi là <span>Nguyễn Tiến Thịnh</span></h1>
+                <p class="lead-text">Một <span>sinh viên</span> đam mê <span>công nghệ thông tin</span>.</p>
+                <div class="social-links">
+                    <a href="https://github.com/[Tên Github của bạn]" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/[Tên LinkedIn của bạn]" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/[Tên Twitter của bạn]" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2>Về tôi</h2>
+            <div class="about-content">
+                <p>Tôi là một <strong>AI Engineer</strong> với <span>10</span> năm kinh nghiệm trong lĩnh vực <span>nghiên cứu và phát triển mô hình AI</span>. Tôi yêu thích việc giải quyết các vấn đề phức tạp và tạo ra các giải pháp sáng tạo, hiệu quả.</p>
+                <p>Tôi có niềm đam mê đặc biệt với <span>lập trình Chat bot</span> và luôn tìm kiếm cơ hội để học hỏi những điều mới mẻ, phát triển bản thân. Tôi tin rằng sự hợp tác và giao tiếp là chìa khóa để đạt được thành công.</p>
+                <p>Trong thời gian rảnh, tôi thường <span>đọc sách, xem phim</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2>Kỹ năng của tôi</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Thiết kế giao diện người dùng responsive và hiện đại.</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript (ES6+)</h3>
+                    <p>Phát triển logic tương tác, DOM manipulation.</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>ReactJS</h3>
+                    <p>Xây dựng các ứng dụng SPA hiệu suất cao.</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Phát triển backend với Express và MongoDB.</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Cơ sở dữ liệu</h3>
+                    <p>SQL (MySQL, PostgreSQL), NoSQL (MongoDB).</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Công cụ & Công nghệ</h3>
+                    <p>Git, Webpack, Babel, npm/yarn.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2>Liên hệ</h2>
+            <p class="contact-lead">Hãy cùng xây dựng điều gì đó tuyệt vời\! Đừng ngần ngại liên hệ với tôi.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:[emailcuaban@example.com]"><strong>thinh@gmail.com</strong></a></p>
+                <p><i class="fas fa-phone-alt"></i> Điện thoại: <span>0123456789</span></p>
+                <p><i class="fas fa-map-marker-alt"></i> Địa chỉ: <span>Thành phố Huế, Việt Nam</span></p>
+            </div>
+            <button id="show-contact-form-btn" class="btn btn-primary">Gửi tin nhắn cho tôi</button>
+            <form id="contact-form" class="contact-form hidden">
+                <div class="form-group">
+                    <label for="name">Tên của bạn:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email của bạn:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tin nhắn:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Gửi</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nguyễn Tiến Thịnh. Được xây dựng với đam mê.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
